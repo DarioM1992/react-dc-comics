@@ -1,0 +1,14 @@
+footer {
+    background-image: url('./img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+}
+
+.BigLogo {
+    position: absolute;
+    right: 0%;
+    width: 20px;
+
+}

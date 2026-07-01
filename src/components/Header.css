@@ -15,6 +15,21 @@ header {
     padding: 0px 30px;
 }
 
+.active {
+    color: blue;
+    position: relative;
+}
+
+.active::after {
+    position: absolute;
+    content: '';
+    height: 8px;
+    width: 80%;
+    background-color: blue;
+    bottom: 0;
+    right: 0;
+    translate: -10% 850%;
+}
 
 header .logo {
     height: 80px;

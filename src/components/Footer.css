@@ -19,13 +19,23 @@ footer{
 .FooterTop {
     display: flex;
     gap: 60px;
+    margin: 10px 200px;
 }
 
 .footer-col h4 {
     color: white;
     font-size: 20px;
+    padding: 8px;
 }
 
 .footer-col ul {
     list-style: none;
+    padding: 8px;
+    line-height: 1.2em;
+}
+
+footer a {
+  color: white;
+  font-size: 12px;
+  text-transform: capitalize;
 }

@@ -4,11 +4,12 @@ footer {
     background-size: cover;
     height: 350px;
     position: relative;
+    overflow: hidden;
 }
 
 .BigLogo {
     position: absolute;
-    right: 0%;
-    width: 20px;
-
+    right: 10%;
+    width: 430px;
+    top: -10%;
 }

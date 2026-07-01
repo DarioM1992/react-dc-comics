@@ -1,3 +1,5 @@
+import './Header.css';
+
 const Logo = () => (
     <img src="img/dc-logo.png" alt="logo-DC" />
 )

@@ -5,7 +5,7 @@ const BigLogo = () => (
 );
 
 const FooterTop = () => (
-    <div className='container'>
+    <div className='FooterTop'>
         <div className='footer-col'>
             <h4>DC COMICS</h4>
             <ul>
@@ -60,8 +60,6 @@ export const Footer = () => (
     <footer>
         <BigLogo />
         <FooterTop />
-        
-        
     </footer>
     
 );

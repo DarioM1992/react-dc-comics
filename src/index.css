@@ -8,3 +8,11 @@ body {
   min-height: 100dvh;
   font-family: sans-serif;
 }
+
+footer a {
+  color: white;
+}
+
+main a {
+  color: white;
+}

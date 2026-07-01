@@ -8,24 +8,26 @@ a {
 header {
     display: flex;
     background-color: rgb(250, 245, 238);
-    height: 200px;
-    max-width: 1200px;
+    height: 150px;
+    max-width: 1600px;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 0px 30px;
 }
 
 
 header .logo {
+    height: 80px;
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 0px 140px;
 }
 
 
 header ul{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
     list-style: none;
+    padding-right: 80px;
 }

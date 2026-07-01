@@ -1,23 +1,21 @@
 import './Header.css';
 
 const Logo = () => (
-    <img src="img/dc-logo.png" alt="logo-DC" />
+    <img className='logo' src="img/dc-logo.png" alt="logo-DC" />
 )
 
 const Nav = () => (
     <ul>
-        <li>
-            <a href="#">characters</a>
-            <a href="#" className="active">comics</a>
-            <a href="#">movies</a>
-            <a href="#">tv</a>
-            <a href="#">games</a>
-            <a href="#">collectibles</a>
-            <a href="#">videos</a>
-            <a href="#">fans</a>
-            <a href="#">news</a>
-            <a href="#">shop</a>
-        </li>
+            <li><a href="#">characters</a></li>
+            <li><a href="#" className="active">comics</a></li>
+            <li><a href="#">movies</a></li>
+            <li><a href="#">tv</a></li>
+            <li><a href="#">games</a></li>
+            <li><a href="#">collectibles</a></li>
+            <li><a href="#">videos</a></li>
+            <li><a href="#">fans</a></li>
+            <li><a href="#">news</a></li>
+            <li><a href="#">shop</a></li>
     </ul>
 )
 

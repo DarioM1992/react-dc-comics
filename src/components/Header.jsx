@@ -8,61 +8,61 @@ const links = [
     {
         id: 1,
         href: '#',
-        content: '',
+        content: 'characters',
         active: false
     },
     {
         id: 2,
         href: '#',
-        content: '',
+        content: 'comics',
         active: true
     },
     {
         id: 3,
         href: '#',
-        content: '',
+        content: 'movies',
         active: false
     },
     {
         id: 4,
         href: '#',
-        content: '',
+        content: 'tv',
         active: false
     },
     {
         id: 5,
         href: '#',
-        content: '',
+        content: 'games',
         active: false
     },
     {
         id: 6,
         href: '#',
-        content: '',
+        content: 'collectibles',
         active: false
     },
     {
         id: 7,
         href: '#',
-        content: '',
+        content: 'videos',
         active: false
     },
     {
         id: 8,
         href: '#',
-        content: '',
+        content: 'fans',
         active: false
     },
     {
         id: 9,
         href: '#',
-        content: '',
+        content: 'news',
         active: false
     },
     {
         id: 10,
         href: '#',
-        content: '',
+        content: 'shop',
         active: false
     },
 
@@ -72,7 +72,7 @@ const links = [
 const Nav = () => (
     <ul>
         {links.map(link => (<li key={link.id}> <a href={link.href} className= {link.active ? 'active' : false}>{link.content}</a></li>))}
-            <li><a href="#">characters</a></li>
+            {/* <li><a href="#">characters</a></li>
             <li><a href="#" className="active">comics</a></li>
             <li><a href="#">movies</a></li>
             <li><a href="#">tv</a></li>
@@ -81,7 +81,7 @@ const Nav = () => (
             <li><a href="#">videos</a></li>
             <li><a href="#">fans</a></li>
             <li><a href="#">news</a></li>
-            <li><a href="#">shop</a></li>
+            <li><a href="#">shop</a></li> */}
     </ul>
 )
 

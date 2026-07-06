@@ -11,7 +11,10 @@ main .titans {
     background-size: cover;
 }
 
-
+.load {
+    height: 20px;
+    width: 200px;
+}
 main .content{
     /* position: absolute; */
     background-color: rgb(33, 32, 32);
@@ -34,6 +37,7 @@ main h4 {
 
 }
 main .containerComics {
+    max-height: 800px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;

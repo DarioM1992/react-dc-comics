@@ -53,6 +53,11 @@ footer a {
    
 }
 
+.platforms {
+    display: flex;
+    align-items: center;
+}
+
 .register {
     border: solid 2px rgb(0, 157, 255);
     background-color: inherit;

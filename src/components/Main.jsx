@@ -176,9 +176,8 @@ export const Main = () => (
 
             </div>
         </div>
-        <div>
-            <button>LOAD MORE</button>
-        </div>
+        <div className='container-button'><button>LOAD MORE</button></div>
+        
         <div className='extra'>
                 <a href="#"><img src="./img/buy-comics-digital-comics.png" alt="" /><span>digital comics</span></a>
                 <a href="#"><img src="./img/buy-comics-merchandise.png" alt="" /><span>dc merchandise</span></a>

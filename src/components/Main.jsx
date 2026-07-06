@@ -164,10 +164,10 @@ export default comics
 
 export const Main = () => (
     <main>
-        <div className='titans'>
-            <span className='badge series'>CURRENT SERIES</span>
-        </div>
+        <div className='titans'></div>
+        <span className='badge'>CURRENT SERIES</span>
         <div className='content'>
+            
             <div className='containerComics'>
                 {comics.map(comic => (<div key = {comic.key} className='comic'>
                     <img src={comic.thumb} alt={comic.title} />

@@ -56,10 +56,30 @@ const FooterTop = () => (
     
 );
 
+
+const FooterBot = () => (
+    <div className='FooterBot'>
+        <button>
+            SIGN-UP NOW!
+        </button>
+        <section>
+            <span>
+                FOLLOW US
+            </span>
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+        </section>
+    </div>
+);
+
 export const Footer = () => (
     <footer>
         <BigLogo />
         <FooterTop />
+        <FooterBot />
     </footer>
     
 );

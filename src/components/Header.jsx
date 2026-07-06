@@ -4,8 +4,74 @@ const Logo = () => (
     <img className='logo' src="img/dc-logo.png" alt="logo-DC" />
 )
 
+const links = [
+    {
+        id: 1,
+        href: '#',
+        content: '',
+        active: false
+    },
+    {
+        id: 2,
+        href: '#',
+        content: '',
+        active: true
+    },
+    {
+        id: 3,
+        href: '#',
+        content: '',
+        active: false
+    },
+    {
+        id: 4,
+        href: '#',
+        content: '',
+        active: false
+    },
+    {
+        id: 5,
+        href: '#',
+        content: '',
+        active: false
+    },
+    {
+        id: 6,
+        href: '#',
+        content: '',
+        active: false
+    },
+    {
+        id: 7,
+        href: '#',
+        content: '',
+        active: false
+    },
+    {
+        id: 8,
+        href: '#',
+        content: '',
+        active: false
+    },
+    {
+        id: 9,
+        href: '#',
+        content: '',
+        active: false
+    },
+    {
+        id: 10,
+        href: '#',
+        content: '',
+        active: false
+    },
+
+]
+
+
 const Nav = () => (
     <ul>
+        {links.map(link => (<li key={link.id}> <a href={link.href} className= {link.active ? 'active' : false}>{link.content}</a></li>))}
             <li><a href="#">characters</a></li>
             <li><a href="#" className="active">comics</a></li>
             <li><a href="#">movies</a></li>

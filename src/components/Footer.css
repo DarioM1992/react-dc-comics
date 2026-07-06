@@ -17,6 +17,7 @@ footer{
 }
 
 .FooterTop {
+    
     display: flex;
     gap: 60px;
     margin: 10px 200px;
@@ -38,4 +39,10 @@ footer a {
   color: white;
   font-size: 12px;
   text-transform: capitalize;
+}
+
+.FooterBot {
+    width: 1600px;
+    height: 340px;
+    background-color: rgb(79, 78, 78);
 }

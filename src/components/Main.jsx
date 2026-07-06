@@ -167,7 +167,9 @@ export const Main = () => (
         <div className='content'>
             <span className='badge series'>CURRENT SERIES</span>
             <div className='containerComics'>
-                {comics.map(comic => (<div key = {comic.key} className='comic'>{comic.series}</div>))}
+                {comics.map(comic => (<div key = {comic.key} className='comic'>
+                    <img src={comic.thumb} alt="" />
+                    {comic.series}</div>))}
 
             </div>
             <span className='badge load'>LOAD MORE</span>

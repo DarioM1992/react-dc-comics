@@ -164,8 +164,10 @@ export default comics
 
 export const Main = () => (
     <main>
-        <div className='content'>
+        <div className='titans'>
             <span className='badge series'>CURRENT SERIES</span>
+        </div>
+        <div className='content'>
             <div className='containerComics'>
                 {comics.map(comic => (<div key = {comic.key} className='comic'>
                     <img src={comic.thumb} alt={comic.title} />
@@ -173,7 +175,7 @@ export const Main = () => (
                     </div>))}
 
             </div>
-            <span className='badge load'>LOAD MORE</span>
+            <button >LOAD MORE</button>
         </div>
         <div className='extra'>
                 <a href="#"><img src="./img/buy-comics-digital-comics.png" alt="" /><span>digital comics</span></a>

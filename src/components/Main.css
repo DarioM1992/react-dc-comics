@@ -3,12 +3,20 @@ main {
     max-width: 1600px;
 }
 
+main .titans {
+    background-image: url('./img/jumbotron.jpg');
+    height: 350px;
+    max-width: 1600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 main .content{
     /* position: absolute; */
     background-color: rgb(33, 32, 32);
     max-width: 1600px;
     padding: 40px 80px;
-    font-size: 28px;+
+    font-size: 28px;
     display: flex ;
 }
 

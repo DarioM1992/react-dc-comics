@@ -168,19 +168,20 @@ export const Main = () => (
             <span className='badge series'>CURRENT SERIES</span>
             <div className='containerComics'>
                 {comics.map(comic => (<div key = {comic.key} className='comic'>
-                    <img src={comic.thumb} alt="" />
-                    {comic.series}</div>))}
+                    <img src={comic.thumb} alt={comic.title} />
+                    <h4>{comic.series}</h4>
+                    </div>))}
 
             </div>
             <span className='badge load'>LOAD MORE</span>
         </div>
-        <section className='extra'>
+        <div className='extra'>
                 <a href="#"><img src="./img/buy-comics-digital-comics.png" alt="" /><span>digital comics</span></a>
                 <a href="#"><img src="./img/buy-comics-merchandise.png" alt="" /><span>dc merchandise</span></a>
                 <a href="#"><img src="./img/buy-comics-subscriptions.png" alt="" /><span>subscription</span></a>
                 <a href="#"><img src="./img/buy-comics-shop-locator.png" alt="" /><span>comic shop locator</span></a>
                 <a href="#"><img src="./img/buy-dc-power-visa.svg" alt="" /><span>dc power visa</span></a>
-        </section>
+        </div>
         
     </main>
 );

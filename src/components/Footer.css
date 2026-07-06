@@ -45,6 +45,27 @@ footer a {
 
 .FooterBot {
     width: 1600px;
-    height: 100px;
+    height: 120px;
     background-color: rgb(79, 78, 78);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+   
+}
+
+.register {
+    border: solid 2px rgb(0, 157, 255);
+    background-color: inherit;
+    color: white;
+    height: 60px;
+    width: 120px;
+}
+
+.follow {
+    color:rgb(0, 157, 255) ;
+    padding: 20px;
+}
+
+.platforms img{
+    padding: 8px;
 }

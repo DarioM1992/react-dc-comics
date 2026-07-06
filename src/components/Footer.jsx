@@ -59,11 +59,11 @@ const FooterTop = () => (
 
 const FooterBot = () => (
     <div className='FooterBot'>
-        <button>
+        <button className='register'>
             SIGN-UP NOW!
         </button>
-        <section>
-            <span>
+        <section className='platforms'>
+            <span className='follow'>
                 FOLLOW US
             </span>
             <img src="./img/footer-facebook.png" alt="" />

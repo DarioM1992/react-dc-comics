@@ -77,8 +77,8 @@ const FooterBot = () => (
 
 export const Footer = () => (
     <footer>
-        <BigLogo />
         <FooterTop />
+        <BigLogo />
         <FooterBot />
     </footer>
     

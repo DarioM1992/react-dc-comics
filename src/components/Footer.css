@@ -1,33 +1,35 @@
 
-footer{
-    background-image: url('./img/footer-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
-    position: relative;
-    overflow: hidden;
-}
 
 .BigLogo {
     position: absolute;
     right: 10%;
-    width: 430px;
-    top: -10%;
+    top: 10%;
+    width: 400px;
     opacity: 0.50;
 }
 
 .FooterTop {
-    
-    display: flex;
+    background-image: url('./img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    width: 1600px;
     gap: 60px;
-    margin: 10px 200px;
+    height: 400px;
+    display: flex;
+    gap: 20px;
+    padding-left: 200px;
+    padding-top: 30px;
 }
+
 
 .footer-col h4 {
     color: white;
     font-size: 20px;
     padding: 8px;
 }
+
+
 
 .footer-col ul {
     list-style: none;
@@ -43,6 +45,6 @@ footer a {
 
 .FooterBot {
     width: 1600px;
-    height: 340px;
+    height: 100px;
     background-color: rgb(79, 78, 78);
 }

@@ -165,7 +165,9 @@ export default comics
 export const Main = () => (
     <main>
         <div className='titans'></div>
-        <span className='badge'>CURRENT SERIES</span>
+        <div className='container-badge'>
+            <span className='badge'>CURRENT SERIES</span>
+        </div>
         <div className='content'>
             
             <div className='containerComics'>

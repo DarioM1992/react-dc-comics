@@ -92,3 +92,13 @@ button {
     color: white;
     border: none;
 }
+
+.container-badge {
+    background-color: rgb(33, 32, 32);
+    position: absolute;
+}
+
+.badge {
+    position: relative;
+    margin-left: 100px;
+}

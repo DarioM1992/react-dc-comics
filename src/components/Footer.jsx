@@ -66,11 +66,11 @@ const FooterBot = () => (
             <span>
                 FOLLOW US
             </span>
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src="./img/footer-facebook.png" alt="" />
+            <img src="./img/footer-twitter.png" alt="" />
+            <img src="./img/footer-youtube.png" alt="" />
+            <img src="./img/footer-pinterest.png" alt="" />
+            <img src="./img/footer-periscope.png" alt="" />
         </section>
     </div>
 );

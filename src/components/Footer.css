@@ -1,9 +1,8 @@
 
 
 .BigLogo {
-    position: absolute;
-    right: 10%;
-    top: 10%;
+    position: relative;
+    right: -50%;
     width: 400px;
     opacity: 0.50;
 }
@@ -12,7 +11,7 @@
     background-image: url('./img/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    position:relative;
+    position:absolute;
     width: 1600px;
     gap: 60px;
     height: 400px;
@@ -20,6 +19,7 @@
     gap: 20px;
     padding-left: 200px;
     padding-top: 30px;
+    overflow: hidden;
 }
 
 
